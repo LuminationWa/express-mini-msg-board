@@ -1,0 +1,7 @@
+form(method='POST' action='/new')
+    h1= "New book" 
+    label(for='user') Name:
+    input#author-name(type='text' name='user')
+    label(for='text') Text:
+    input#message(type='text' name='text')
+    button(type='submit')= "Submit"
